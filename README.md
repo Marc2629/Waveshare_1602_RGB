@@ -26,15 +26,18 @@ To use the module in your project, follow these steps:
 
 3. Use the instance methods to control the LCD. For example:
 
-```lcd.clear()
+```
+lcd.clear()
 lcd.setColorWhite()
 lcd.setCursor(0, 0)
-lcd.printout("Hello, World!")```
+lcd.printout("Hello, World!")
+```
   
 # Example
 Here is a simple example demonstrating how to use the RGB1602 class:
 
-```import time
+```
+import time
 from LCD1602 import RGB1602
   
 # Initialize the LCD
@@ -52,7 +55,8 @@ for _ in range(5):
     time.sleep(0.5)
     lcd.setCursor(0, 0)
     lcd.printout("Hello, World!")
-    time.sleep(0.5)```
+    time.sleep(0.5)
+```
       
 # Additional Information
 Ensure your I2C bus is correctly configured on your Raspberry Pi.
