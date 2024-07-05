@@ -22,7 +22,7 @@ To use the module in your project, follow these steps:
 
 2. Create an instance of the RGB1602 class:
 
-```lcd = RGB1602(16, 2)  # Initialize a 16x2 LCD```
+`lcd = RGB1602(16, 2)  # Initialize a 16x2 LCD`
 
 3. Use the instance methods to control the LCD. For example:
 
